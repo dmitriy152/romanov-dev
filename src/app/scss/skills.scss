@@ -1,0 +1,28 @@
+.skills {
+    &-title {
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 477px;
+        margin: 0 0 48px 0;
+    }
+    &__item circle {
+        transition: $transition_def;
+    }
+    &__item-title {
+        color: $white;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,40 @@
+.footer {
+    padding-bottom: 30px;
+    &__wrapper.wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    &__navigation-list {
+        display: flex;
+        align-items: center;
+    }
+    &__navigation-item {
+        margin: 0 40px 0 0;
+        &:last-child {
+            margin: 0;
+        }
+        a {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            font-variant: small-caps;
+            color: $white;
+        }
+    }
+    &__creater {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            color: $white;
+            margin: 0 20px 0 0;
+        }
+    }
+}
